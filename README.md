@@ -68,14 +68,8 @@ Structure du projet
 
 # Exemple de Prédiction
 
-Entrée : T
-Sortie attendue : Tyrannosaurus
-Sortie générée par le RNN : Tyranosorux (améliorable avec plus d'entraînement)
+![image](https://github.com/user-attachments/assets/7cdf1a00-59c9-43dd-a212-082eb55ade87)
 
-Entrée : V
-Sortie attendue : Velociraptor
-Sortie générée par le RNN : Velociraptoo
- Résultats et Améliorations possibles
 
 Le modèle apprend progressivement à prédire des noms proches des vrais.
 La perte diminue au fil des itérations, montrant un bon apprentissage.
