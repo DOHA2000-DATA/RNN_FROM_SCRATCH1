@@ -6,35 +6,34 @@ Objectifs du projet
 
 L'objectif principal de ce projet est de comprendre et d'implémenter un RNN de base, en mettant en pratique les concepts fondamentaux des réseaux de neurones récurrents. Plus précisément, ce projet vise à :
 
-    Comprendre la théorie des RNN :
-        Étudier la structure des RNN et leur utilité.
-        Apprendre les concepts de mémoire et de dépendances temporelles.
+Comprendre la théorie des RNN :
+Étudier la structure des RNN et leur utilité.
+Apprendre les concepts de mémoire et de dépendances temporelles.
 
-    Implémenter un RNN from scratch :
-        Construire un modèle RNN sans utiliser de frameworks préconçus comme TensorFlow ou PyTorch.
-        Gérer la propagation avant et arrière dans le temps (BPTT).
+Implémenter un RNN from scratch :
+Construire un modèle RNN sans utiliser de frameworks préconçus comme TensorFlow ou PyTorch.
+Gérer la propagation avant et arrière dans le temps (BPTT).
 
-    Expérimenter sur des données séquentielles :
-        Tester le modèle sur des séries temporelles ou du texte.
-        Observer l’évolution de la perte et ajuster les hyperparamètres.
+Expérimenter sur des données séquentielles :
+Tester le modèle sur des séries temporelles ou du texte.
+Observer l’évolution de la perte et ajuster les hyperparamètres.
 
-    Analyser les performances et explorer les améliorations possibles :
-        Visualiser les résultats et identifier les limites du modèle.
-        Comparer avec d'autres architectures comme LSTM et GRU.
+Analyser les performances et explorer les améliorations possibles :
+Visualiser les résultats et identifier les limites du modèle.
+Comparer avec d'autres architectures comme LSTM et GRU.
 
 Contenu du Notebook 
 
 Le notebook RNN_FROM_SCRATCH.ipynb couvre les aspects suivants :
-
-    Introduction aux RNN : pourquoi les utiliser et comment ils fonctionnent ?
-    Implémentation des fonctions fondamentales :
-        Initialisation des poids et biais
-        Fonction d'activation (tanh, softmax)
-        Propagation avant
-        Propagation arrière avec BPTT
-        Mise à jour des paramètres avec descente de gradient
-    Entraînement du modèle sur un dataset simple.
-    Analyse des performances et discussion des limites.
+Introduction aux RNN : pourquoi les utiliser et comment ils fonctionnent ?
+Implémentation des fonctions fondamentales :
+Initialisation des poids et biais
+Fonction d'activation (tanh, softmax)
+Propagation avant
+Propagation arrière avec BPTT
+Mise à jour des paramètres avec descente de gradient
+Entraînement du modèle sur un dataset simple.
+Analyse des performances et discussion des limites.
 
 Prérequis 🛠
 
